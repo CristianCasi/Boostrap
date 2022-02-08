@@ -100,6 +100,8 @@ p {
   flex-flow: row wrap;
   justify-content: center;
   background-color: rgba(31, 187, 148, 0.178);
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 h5 {
@@ -138,11 +140,15 @@ ul .redesSociales {
 }
 
 .carousel{
-  width: 50%;
+  width: 70%;
 }
 
 .parrafoQuienes{
   margin-top: 3%;
+}
+
+.tituloMarcas{
+  border-block-start-style:groove
 }
 
 /*quienessomos html*/

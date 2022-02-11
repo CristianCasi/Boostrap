@@ -40,12 +40,7 @@ body {
 
 /* clase navegador */
 
-.navegador {
-  list-style: none;
-  font-size: 24px;
-  text-align: center;
-  margin: left 10px;
-}
+
 /* aplico flexbox a ul */
 
 ul {

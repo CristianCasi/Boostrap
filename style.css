@@ -9,6 +9,7 @@ body {
 }
 
 /* inicio */
+
 .logo {
   width: 40vh;
   height: 40vh;
@@ -26,6 +27,7 @@ body {
   margin: auto;
   margin-left: 8%;
 }
+
 /* barra de navegacion */
 
 .contenedorUl {
@@ -39,9 +41,6 @@ body {
 }
 
 /* clase navegador */
-
-
-/* aplico flexbox a ul */
 
 ul {
   display: flex;

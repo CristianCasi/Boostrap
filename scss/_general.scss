@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Oswald", sans-serif;
+}
+.navegador {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.nombreParrafo {
+  color: cadetblue;
+  font-weight: bold;
+  font-size: 16px;
+}
+.logo {
+  width: 40vh;
+  height: 40vh;
+}
+.contenedorUl {
+  background-color: #12a19a;
+  display: flex;
+  margin: auto;
+  flex-flow: wrap;
+  margin-block-end: 1rem;
+  border-radius: 5rem;
+}
+
+ul {
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 1%;
+  margin-right: 1%;
+}
+a {
+  text-decoration: none;
+  color: map-get($map: $colores-isla, $key: secundario);
+}
+
+p {@include flexbox(row, center, wrap);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 150%;
+}
+
+.imgContenedor {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: $color-cuarto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+h5 {
+  @extend %flexRow;
+  text-align: justify;
+}
+.redesSociales {
+  text-decoration: none;
+  justify-content: space-between;
+  list-style: none;
+}
+
+footer ul {
+  li {
+    font-size: 1rem;
+    padding: 1% 5%;
+
+    a {
+      color: $color-terciario;
+
+      &:hover {
+        color: "map-get($map:colores-isla, $key: hover-primario)";
+      }
+    }
+  }
+
+  background-color: $color-primario;
+}
+
+ul .redesSociales {
+  font-size: 24px;
+  text-align: center;
+  margin: left 10px;
+}
+
+.redesContainer {
+  width: 97%;
+  height: 10%;
+}
+
+.carousel {
+  width: 70%;
+}
+
+.parrafoQuienes {
+  margin-top: 3%;
+}
+
+.tituloMarcas {
+  border-block-start-style: groove;
+}

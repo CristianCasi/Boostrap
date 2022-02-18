@@ -1,5 +1,7 @@
-@import "./paginas/index";
-@import "./base/general";
-@import "./imagenes/imgIndex"
-
-
+@import "./variables";
+@import "./general";
+@import "./base/index.scss";
+@import "./paginas/contacto";
+@import "./paginas/nuestrosproductos";
+@import "./paginas/trabajaconnosotros";
+@import "./paginas/quienessomos.scss";

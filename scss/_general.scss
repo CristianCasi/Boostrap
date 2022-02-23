@@ -12,14 +12,22 @@ body {
   justify-content: space-between;
   text-align: center;
 }
+a {
+  text-decoration: none;
+  color: map-get($map: $colores-isla, $key: secundario);
+}
+
 .nombreParrafo {
   color: cadetblue;
   font-weight: bold;
   font-size: 16px;
 }
 .logo {
-  width: 40vh;
-  height: 40vh;
+  display: flex;
+  justify-content: center;
+  width: 0;
+  height: 0;
+  
 }
 .contenedorUl {
   background-color: #12a19a;
@@ -38,10 +46,7 @@ ul {
   margin-top: 1%;
   margin-right: 1%;
 }
-a {
-  text-decoration: none;
-  color: map-get($map: $colores-isla, $key: secundario);
-}
+
 
 p {@include flexbox(row, center, wrap);
   font-family: Arial, Helvetica, sans-serif;
@@ -62,10 +67,10 @@ h5 {
 }
 .redesSociales {
   text-decoration: none;
-  justify-content: space-between;
   list-style: none;
-}
+  margin-top: 6%;
 
+}
 footer ul {
   li {
     font-size: 1rem;
@@ -86,7 +91,7 @@ footer ul {
 ul .redesSociales {
   font-size: 24px;
   text-align: center;
-  margin: left 10px;
+  margin:10px;
 }
 
 .redesContainer {

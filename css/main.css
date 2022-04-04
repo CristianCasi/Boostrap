@@ -34,6 +34,7 @@ a {
   height: 0; }
 
 .contenedorUl {
+  text-decoration: none;
   background-color: #12a19a;
   display: flex;
   margin: auto;
@@ -42,6 +43,7 @@ a {
   border-radius: 5rem; }
 
 ul {
+  text-decoration: none;
   display: flex;
   flex-flow: wrap;
   width: 100%;

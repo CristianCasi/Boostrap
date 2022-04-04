@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 body {
   font-family: "Oswald", sans-serif;
 }
@@ -30,6 +31,7 @@ a {
   
 }
 .contenedorUl {
+  text-decoration: none;
   background-color: #12a19a;
   display: flex;
   margin: auto;
